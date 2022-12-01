@@ -51,6 +51,7 @@ currently displayed.
 allows floating point numbers up to 3 places to be entered and operations to
 be carried out to the maximum number of decimal places entered for any one
 number.  
+- [x] User can type on keyboard and get the result.  
 ### Screenshot
 ![](/screenshot/screencapture.gif)
 
