@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+	--bg-color: #292929;
+	--bg-button-dark-color: #2c2c2c;
+	--bg-button-blue-color: #0096c7;
+	--bg-button-dark-hover-color: #1f1f1f;
+	--bg-button-blue-hover-color: #0bace2;
+	--white-color: #fff;
+}
+
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	background-color: var(--bg-color);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header,
+footer {
+	padding: 2rem 0;
+	color: var(--white-color);
+}
+
+header h1{
+	font-size: 4rem;
+}
+
+footer {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+
+footer a {
+	display: flex;
+	color: var(--white-color);
+	align-items: center;
+	gap: .5rem;
+}
+
+
+
+.container-calculator {
+	display: grid;
+	grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+
+}
+
+.output {
+	grid-column: 1 /-1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around;
+	padding: .3rem;
+	background-color: var(--white-color);
+	text-align: right;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.previous {
+	font-size: 1.5rem;
+	color: var(--bg-button-dark-hover-color);
+}
+
+.current {
+	font-size: 2.5rem;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 2rem;
+	font-size: 2rem;
+	background-color: var(--bg-button-dark-color);
+	color: var(--white-color);
+}
+
+button:hover {
+	background-color: var(--bg-button-dark-hover-color);
+	transition: 200ms ease-in-out;
+}
+
+button.blue {
+	background-color: var(--bg-button-blue-color);
+	color: var(--white-color);
+}
+
+button.blue:hover {
+	background-color: var(--bg-button-blue-hover-color);
+}
+
+button.span-two {
+	grid-column: span 2;
+}
