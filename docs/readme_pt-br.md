@@ -26,27 +26,27 @@ App Ideas challenge.
 Os usuários devem ser capazes de:  
 - [x] O usuário pode ver uma tela mostrando o número atual digitado ou o
 resultado da última operação.
-- [X] O usuário pode ver um teclado de entrada contendo botões para os dígitos 0-9,
+- [x] O usuário pode ver um teclado de entrada contendo botões para os dígitos 0-9,
 operações - '+', '-', '/' e '=', um botão 'C' (para limpar) e um 'AC'
 botão (para limpar tudo).
-- [X] O usuário pode inserir números como sequências de até 8 dígitos clicando em
+- [x] O usuário pode inserir números como sequências de até 8 dígitos clicando em
 dígitos no teclado de entrada. A entrada de qualquer dígito maior que 8 será ignorada.
-- [X] O usuário pode clicar em um botão de operação para exibir o resultado dessa
+- [x] O usuário pode clicar em um botão de operação para exibir o resultado dessa
 operação em:
      * o resultado da operação anterior e o último número digitado OU
      * os dois últimos números inseridos OU
      * o último número digitado
-- [X] O usuário pode clicar no botão 'C' para limpar o último número ou o último
+- [x] O usuário pode clicar no botão 'C' para limpar o último número ou o último
 Operação. Se a última entrada do usuário foi uma operação, a exibição será
 atualizado para o valor que o precedeu.
-- [X] O usuário pode clicar no botão 'AC' para limpar todas as áreas de trabalho internas e
+- [x] O usuário pode clicar no botão 'AC' para limpar todas as áreas de trabalho internas e
 para definir o visor para 0.
 - [x] O usuário pode ver 'ERR' exibido se qualquer operação exceder o
 Máximo de 8 dígitos.
 ### Recursos bônus
 - [ ] O usuário pode clicar no botão '+/-' para alterar o sinal do número que está
 atualmente exibido.
-- [X] O usuário pode ver um botão de ponto decimal ('.') no teclado de entrada para esse
+- [x] O usuário pode ver um botão de ponto decimal ('.') no teclado de entrada para esse
 permite que números de ponto flutuante de até 3 lugares sejam inseridos e operações para
 ser executada com o número máximo de casas decimais inseridas para qualquer
 número.
